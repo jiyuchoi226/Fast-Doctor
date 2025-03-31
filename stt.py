@@ -8,9 +8,5 @@ def stt(audio_file_path):
             file=audio_file,
             language="ko"
         )
-
-        if transcriptions.text == "MBC 뉴스 이덕영입니다.":
-            transcriptions.text = ""
-
         return transcriptions.text
 
