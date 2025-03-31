@@ -1,5 +1,5 @@
 import openai
-openai.api_key="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"
+openai.api_key="Your API key"
 
 def stt(audio_file_path):
     with open(audio_file_path, "rb") as audio_file:
