@@ -20,7 +20,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from streamlit.components.v1 import html
 warnings.filterwarnings("ignore")
 
-os.environ["UPSTAGE_API_KEY"] = "up_CAb1wgEBbFqTiFuGvb1EhXakso2jr"
+os.environ["UPSTAGE_API_KEY"] = "Your_Upstage_KEY"
 if "UPSTAGE_API_KEY" not in os.environ or not os.environ["UPSTAGE_API_KEY"]:
     os.environ["UPSTAGE_API_KEY"] = getpass.getpass("Enter your UPSTAGE API KEY: ")
     print("API key has been set successfully.")
